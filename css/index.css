@@ -1,0 +1,33 @@
+/* All (Geral) */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero (Descrição brevia) */
+.hero {
+    height: 250px;
+    padding: 150px 0 220px 0;
+}
+
+
+/* Slides */
+.destaque {
+    margin: 40px 0;
+}
+
+.carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    height: 400px; /* define altura */
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Categorias */

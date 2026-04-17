@@ -1,7 +1,7 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 15px;
 }
 
 .navbar-brand {
@@ -18,7 +18,9 @@
     transition: all 0.3s ease;
 }
 
-.header .nav-link:hover {
+.header .nav-link:hover,
+.header .nav-link:focus-visible,
+.header .nav-link:active {
     color: var(--color-primary);
     background-color: var(--color-accent);
     border-radius: 15px;
@@ -31,7 +33,7 @@
 .dropdown-menu {
     border-radius: 15px;
     padding: 10px 0;
-    background-color: white;
+    background-color: #fff;
 }
 
 .dropdown-item {

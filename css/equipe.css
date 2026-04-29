@@ -1,0 +1,25 @@
+/* Equipe */
+.hero-equipe {
+    background-color: var(--color-surface);
+}
+
+.hero-equipe .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    height: 260px;
+}
+
+.hero-equipe h1 {
+    font-size: 100px;
+    color: var(--color-primary)
+}
+
+.hero-equipe img {
+    height: 160px;
+    width: 200px;
+}
+
+/* Realização */

@@ -8,12 +8,11 @@
     justify-content: space-between;
     align-items: center;
     
-
-    height: 260px;
+    padding: 60px 0
 }
 
 .hero-equipe h1 {
-    font-size: 100px;
+    font-size: 90px;
     color: var(--color-primary)
 }
 
@@ -21,6 +20,53 @@
     height: 160px;
     width: 200px;
 
+    object-fit: contain;
+}
+
+/* Realização */
+.realizacao {
+    margin-top: 10px;
+    padding: 30px 0;
+}
+
+.realizacao__lista,
+.orientacao__lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.realizacao__lista li,
+.orientacao__lista li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.realizacao__nome,
+.orientacao__nome {
+    flex: 0 0 40%; /* ocupa 40% fixo */
+}
+
+.realizacao__descricao,
+.orientacao__descricao {
+    flex: 0 0 55%; /* ocupa 55% fixo */
+    text-align: right; /* alinha como no design */
+}
+
+/* Orientação / Colaboração*/
+.orientacao,
+.colaboracao {
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.orientacao__descricao {
+    flex: 0 0 45%;
+}
+
+/* Instituições */
+.instituicoes__container {
+    display: flex;
 }
 
 

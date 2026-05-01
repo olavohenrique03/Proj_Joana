@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     
-    padding: 60px 0
+    padding: 60px 0;
 }
 
 .hero-equipe h1 {
@@ -50,7 +50,17 @@
 .realizacao__descricao,
 .orientacao__descricao {
     flex: 0 0 55%; /* ocupa 55% fixo */
-    text-align: right; /* alinha como no design */
+    
+}
+
+/* Específico de cada um */
+.realizacao__descricao {
+    text-align: right;
+}
+
+.orientacao__descricao {
+    flex: 0 0 45%;
+    text-align: right; /* ou left para ficar alinha na parede */
 }
 
 /* Orientação / Colaboração*/
@@ -68,5 +78,30 @@
 .instituicoes__container {
     display: flex;
 }
+
+.instituicoes__card {
+
+    display: flex;          /* ← adicionar */
+    align-items: center;    /* ← centraliza verticalmente */
+    gap: 12px;              /* ← espaço entre ícone e texto */
+
+    background-color: var(--color-surface);
+    margin: 20px 30px 20px 0;
+    padding: 10px 60px 10px 10px;
+    border-radius: 30px;
+}
+
+.instituicoes__logo {
+    background-color: var(--color-accent);
+    border-radius: 50%;
+
+    height: 38px;
+    width: 38px;
+    min-width: 38px;
+
+    object-fit: contain;
+    padding: 6px;
+}
+
 
 

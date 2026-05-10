@@ -3,12 +3,12 @@ const animais = {
     coelho: {
         descricao: "Nesta seção são apresentados conteúdos relacionados às técnicas de contenção física em mamíferos silvestres e exóticos mantidos como pets. Devido às diferenças anatômicas, comportamentais e ao porte corporal das diversas espécies, as estratégias de manejo podem variar significativamente. Assim, são abordadas orientações sobre formas adequadas de contenção, cuidados durante o manuseio e aspectos importantes para reduzir riscos de acidentes e estresse durante os procedimentos clínicos. As informações reunidas buscam auxiliar na compreensão das particularidades desse grupo, contribuindo para um manejo mais seguro e adequado na prática médico-veterinária.",
         video: "../assets/video/coelho.mp4",
-        tituloConteudo: "Lista de materiais do coelho...",
-        materiais: "Lista de materiais do porquinho...",
-        procedimentos: "Passo a passo do procedimento..."
+        tituloConteudo: "Contenção para realização de procedimentos",
+        materiais: "Materiais.",
+        procedimentos: "Procedimento."
     },
     porquinho: {
-        descricao: "Nesta seção são apresentados conteúdos relacionados às técnicas de contenção física em mamíferos silvestres e exóticos mantidos como pets. Devido às diferenças anatômicas, comportamentais e ao porte corporal das diversas espécies, as estratégias de manejo podem variar significativamente. Assim, são abordadas orientações sobre formas adequadas de contenção, cuidados durante o manuseio e aspectos importantes para reduzir riscos de acidentes e estresse durante os procedimentos clínicos. As informações reunidas buscam auxiliar na compreensão das particularidades desse grupo, contribuindo para um manejo mais seguro e adequado na prática médico-veterinária.",
+        descricao: "Teste",
         video: "../assets/video/coelho.mp4",
         tituloConteudo: "Lista de materiais do coelho...",
         materiais: "Lista de materiais do porquinho...",
@@ -64,7 +64,7 @@ function carregarAnimal(nomeAnimal) {
 }
 
 // Evento de clique nas abas
-document.querySelectorAll('.animais-menu__item').forEach(itens => {
+document.querySelectorAll('.animais-menu__item').forEach(item => {
     item.addEventListener('click', () => {
 
         //Remove "ativo" de todos

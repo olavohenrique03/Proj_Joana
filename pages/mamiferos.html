@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-s/bootstrap.min.css"    <!-- Link Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/cs rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/especies.css">
 
     <title>Mamíferos</title>
 
@@ -19,14 +20,17 @@ s/bootstrap.min.css"    <!-- Link Bootstrap -->
      <header id="header"></header>
 
     <main>
-        <h1 class="specie-name">Mamíferos</h1>
+        <!-- Tema espécies -->
+        <div class="container">
+            <h1 class="specie-name">Mamíferos</h1>
+        </div>
 
         <!-- Menu de animais -->
         <section class="animais-menu">
             <div class="container">
                 <ul class="animais-menu__lista">
                     <li class="animais-menu__item ativo" data-animal="coelho">Coelho</li>
-                    <li class="animais-menu__item" data-animal="porquinho">Porquinho</li>
+                    <li class="animais-menu__item" data-animal="porquinho">Porquinho-da-Índia</li>
                     <li class="animais-menu__item" data-animal="chinchila">Chinchila</li>
                     <li class="animais-menu__item" data-animal="hamster">Hamster</li>
                     <li class="animais-menu__item" data-animal="twister">Twister</li>
@@ -46,7 +50,7 @@ s/bootstrap.min.css"    <!-- Link Bootstrap -->
         <!-- Vídeo — preenchido pelo JS -->
         <section class="video-secao">
             <div class="container">
-                <video class="video-secao__player" src=""></video>
+                <video class="video-secao__player" src="#"></video>
             </div>
         </section>
 

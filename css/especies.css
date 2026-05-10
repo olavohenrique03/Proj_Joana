@@ -1,0 +1,75 @@
+/* Tema espécies */
+.specie-name {
+    color: var(--color-primary);
+    font-size: 100px;
+    font-weight: bold;
+}
+
+/* Menu de animais */
+.animais-menu {
+    background-color: var(--color-surface);
+    
+}
+
+.animais-menu__lista {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+.animais-menu__item {
+    color: var(--color-primary);
+    padding: 10px 6px;
+    font-weight: bold;
+    font-size: 18px;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.animais-menu__item:hover {
+    background-color: var(--color-accent);
+}
+
+.animais-menu__item.ativo {
+    background-color: var(--color-accent);
+}
+
+
+/* Descrição */
+.descricao__texto {
+    font-size: 14px;
+    padding: 4px 0;
+}
+
+
+/* Vídeo */
+.video-secao {
+    background-color: var(--color-primary);
+}
+
+/* Materiais e Procedimentos */
+.conteudo__titulo {
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-primary);
+    margin-bottom: 18px;
+}
+
+.conteudo__colunas {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.conteudo__materiais,
+.conteudo__procedimentos {
+    flex: 1;
+    background-color: var(--color-surface);
+    padding: 30px;
+    min-height: 200px;
+    border-radius: 18px;
+}

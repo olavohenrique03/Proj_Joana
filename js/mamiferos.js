@@ -2,49 +2,49 @@
 const animais = {
     coelho: {
         descricao: "Nesta seção são apresentados conteúdos relacionados às técnicas de contenção física em mamíferos silvestres e exóticos mantidos como pets. Devido às diferenças anatômicas, comportamentais e ao porte corporal das diversas espécies, as estratégias de manejo podem variar significativamente. Assim, são abordadas orientações sobre formas adequadas de contenção, cuidados durante o manuseio e aspectos importantes para reduzir riscos de acidentes e estresse durante os procedimentos clínicos. As informações reunidas buscam auxiliar na compreensão das particularidades desse grupo, contribuindo para um manejo mais seguro e adequado na prática médico-veterinária.",
-        video: "./assets/video/coelho.mp4",
+        video: "../assets/video/coelho.mp4",
         tituloConteudo: "Lista de materiais do coelho...",
         materiais: "Lista de materiais do porquinho...",
         procedimentos: "Passo a passo do procedimento..."
     },
     porquinho: {
         descricao: "Nesta seção são apresentados conteúdos relacionados às técnicas de contenção física em mamíferos silvestres e exóticos mantidos como pets. Devido às diferenças anatômicas, comportamentais e ao porte corporal das diversas espécies, as estratégias de manejo podem variar significativamente. Assim, são abordadas orientações sobre formas adequadas de contenção, cuidados durante o manuseio e aspectos importantes para reduzir riscos de acidentes e estresse durante os procedimentos clínicos. As informações reunidas buscam auxiliar na compreensão das particularidades desse grupo, contribuindo para um manejo mais seguro e adequado na prática médico-veterinária.",
-        video: "./assets/video/coelho.mp4",
+        video: "../assets/video/coelho.mp4",
         tituloConteudo: "Lista de materiais do coelho...",
         materiais: "Lista de materiais do porquinho...",
         procedimentos: "Passo a passo do procedimento..."
     },
     chinchila: {
         descricao: "Nesta seção são apresentados conteúdos relacionados às técnicas de contenção física em mamíferos silvestres e exóticos mantidos como pets. Devido às diferenças anatômicas, comportamentais e ao porte corporal das diversas espécies, as estratégias de manejo podem variar significativamente. Assim, são abordadas orientações sobre formas adequadas de contenção, cuidados durante o manuseio e aspectos importantes para reduzir riscos de acidentes e estresse durante os procedimentos clínicos. As informações reunidas buscam auxiliar na compreensão das particularidades desse grupo, contribuindo para um manejo mais seguro e adequado na prática médico-veterinária.",
-        video: "./assets/video/coelho.mp4",
+        video: "../assets/video/coelho.mp4",
         tituloConteudo: "Lista de materiais do coelho...",
         materiais: "Lista de materiais do porquinho...",
         procedimentos: "Passo a passo do procedimento..."
     },
     hamster: {
         descricao: "Nesta seção são apresentados conteúdos relacionados às técnicas de contenção física em mamíferos silvestres e exóticos mantidos como pets. Devido às diferenças anatômicas, comportamentais e ao porte corporal das diversas espécies, as estratégias de manejo podem variar significativamente. Assim, são abordadas orientações sobre formas adequadas de contenção, cuidados durante o manuseio e aspectos importantes para reduzir riscos de acidentes e estresse durante os procedimentos clínicos. As informações reunidas buscam auxiliar na compreensão das particularidades desse grupo, contribuindo para um manejo mais seguro e adequado na prática médico-veterinária.",
-        video: "./assets/video/coelho.mp4",
+        video: "../assets/video/coelho.mp4",
         tituloConteudo: "Lista de materiais do coelho...",
         materiais: "Lista de materiais do porquinho...",
         procedimentos: "Passo a passo do procedimento..."
     },
     twister: {
         descricao: "Nesta seção são apresentados conteúdos relacionados às técnicas de contenção física em mamíferos silvestres e exóticos mantidos como pets. Devido às diferenças anatômicas, comportamentais e ao porte corporal das diversas espécies, as estratégias de manejo podem variar significativamente. Assim, são abordadas orientações sobre formas adequadas de contenção, cuidados durante o manuseio e aspectos importantes para reduzir riscos de acidentes e estresse durante os procedimentos clínicos. As informações reunidas buscam auxiliar na compreensão das particularidades desse grupo, contribuindo para um manejo mais seguro e adequado na prática médico-veterinária.",
-        video: "./assets/video/coelho.mp4",
+        video: "../assets/video/coelho.mp4",
         tituloConteudo: "Lista de materiais do coelho...",
         materiais: "Lista de materiais do porquinho...",
         procedimentos: "Passo a passo do procedimento..."
     },
-    furão: {
+    furao: {
         descricao: "Nesta seção são apresentados conteúdos relacionados às técnicas de contenção física em mamíferos silvestres e exóticos mantidos como pets. Devido às diferenças anatômicas, comportamentais e ao porte corporal das diversas espécies, as estratégias de manejo podem variar significativamente. Assim, são abordadas orientações sobre formas adequadas de contenção, cuidados durante o manuseio e aspectos importantes para reduzir riscos de acidentes e estresse durante os procedimentos clínicos. As informações reunidas buscam auxiliar na compreensão das particularidades desse grupo, contribuindo para um manejo mais seguro e adequado na prática médico-veterinária.",
-        video: "./assets/video/coelho.mp4",
+        video: "../assets/video/coelho.mp4",
         tituloConteudo: "Lista de materiais do coelho...",
         materiais: "Lista de materiais do porquinho...",
         procedimentos: "Passo a passo do procedimento..."
     },
-    ouriço: {
+    ourico: {
         descricao: "Nesta seção são apresentados conteúdos relacionados às técnicas de contenção física em mamíferos silvestres e exóticos mantidos como pets. Devido às diferenças anatômicas, comportamentais e ao porte corporal das diversas espécies, as estratégias de manejo podem variar significativamente. Assim, são abordadas orientações sobre formas adequadas de contenção, cuidados durante o manuseio e aspectos importantes para reduzir riscos de acidentes e estresse durante os procedimentos clínicos. As informações reunidas buscam auxiliar na compreensão das particularidades desse grupo, contribuindo para um manejo mais seguro e adequado na prática médico-veterinária.",
-        video: "./assets/video/coelho.mp4",
+        video: "../assets/video/coelho.mp4",
         tituloConteudo: "Lista de materiais do coelho...",
         materiais: "Lista de materiais do porquinho...",
         procedimentos: "Passo a passo do procedimento..."
@@ -56,7 +56,7 @@ function carregarAnimal(nomeAnimal) {
     const animal = animais[nomeAnimal]
     if (!animal) return;
 
-    document.querySelector('.descrição__texto').textContent = animal.descricao;
+    document.querySelector('.descricao__texto').textContent = animal.descricao;
     document.querySelector('.video-secao__player').src = animal.video;
     document.querySelector('.conteudo__titulo').textContent = animal.tituloConteudo;
     document.querySelector('.conteudo__materiais').textContent = animal.materiais;
@@ -64,17 +64,17 @@ function carregarAnimal(nomeAnimal) {
 }
 
 // Evento de clique nas abas
-document.querySelector('.animais-menu__lista').forEach(itens => {
+document.querySelectorAll('.animais-menu__item').forEach(itens => {
     item.addEventListener('click', () => {
 
         //Remove "ativo" de todos
-        document.querySelectorAll('.animais-menu__lista').forEach(i => i.classList.remove('ativo'));
+        document.querySelectorAll('.animais-menu__item').forEach(i => i.classList.remove('ativo'));
 
         //Adiciona "ativo" no clicado
         item.classList.add('ativo');
 
         //Carrega o conteúdo do animal
-        carregarAnimal(item.dataset.amimal)
+        carregarAnimal(item.dataset.animal)
     });
 });
 
